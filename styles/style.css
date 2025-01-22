@@ -12,7 +12,7 @@
 }
 body{
     max-width: 1280px;
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
     margin: 0 auto;
 }
 
@@ -31,7 +31,7 @@ nav{
     gap:9px;
 }
 
-.nav-firstpart img{
+.nav-firstpart>img{
     height: 52px;
     width: 52px;
 }
@@ -86,6 +86,7 @@ nav{
     border-radius: 10px;
     height: 44px;
     width: 173px;
+    border: none;
 }
 
 
@@ -138,16 +139,13 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 100%; */
+     
     /* border: 1px solid red; */
-    background-image: url("./assets/bg.png");
-     /* background-position: -80px -8px; */ 
+    
 }
 .section1-containers{
     display: flex;
-    /* justify-content: space-between; */
-    /* width: 100%; */
-    /* border: 1px solid gray; */
+    
     gap: 40px;
     padding-left:123px ;
     padding-right: 123px;
@@ -283,7 +281,8 @@ color: rgba(240, 170, 0, 1);
     flex-direction: column;
     /* background-color: rgba(254, 163, 1, 1); */
     
-    background: linear-gradient(to top, rgb(250, 234, 203), transparent 90%);
+    background: linear-gradient(to top, rgb(248, 221, 168), transparent 90%);
+     
     
 
     
@@ -474,7 +473,7 @@ color: rgba(240, 170, 0, 1);
     justify-content: space-around;
     align-items: center;
     background-color: rgba(1, 172, 253, 1);
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding-top: 10px;
 }
 .footer-head{
@@ -542,7 +541,7 @@ color: rgba(240, 170, 0, 1);
  
  
  
-@media screen and (min-width:578px) {
+@media screen and (min-width:576px) {
     
     .hidden{
         display: none;
@@ -687,6 +686,9 @@ color: rgba(240, 170, 0, 1);
     }
 
     /*  */
+    .small-device{
+        padding-bottom: 15px;
+    }
      
     .section-2-images{
         display: grid;
@@ -704,6 +706,28 @@ color: rgba(240, 170, 0, 1);
         
         ;
     
+    }
+
+    .middle-button2{
+        width: 90px;
+        height: 19px;
+        position: relative;
+        top: -18px;
+        right: -15px;
+        font-size: 7.92px;
+        border-radius: 24px;
+        padding: 3px 14px;
+    }
+    .middle-button3{
+
+        width:90px ;
+        height: 19px;
+        position: relative;
+        top: -18px;
+        right: -15px;
+        font-size: 7.92px;
+        border-radius: 24px;
+        padding: 3px 14px;
     }
 
     .extra{
@@ -724,6 +748,7 @@ color: rgba(240, 170, 0, 1);
         
         padding: 0px;
     }
+
     .foot-img-head{
         text-align: left;
         
@@ -731,6 +756,12 @@ color: rgba(240, 170, 0, 1);
     }
     .footer-p{
         text-align: left;
+    }
+    .foot-head{
+        text-align: left;
+         
+        margin-left:  75px;
+        align-self: start;
     }
 
     .foot-about{
