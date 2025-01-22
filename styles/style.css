@@ -128,7 +128,8 @@ nav{
 main{
     
     background-image: url("./assets/bg.png");
-    background-position: bottom;
+    /* background-position: center; */
+    background-size: contain;
 }
 .banner-img{
     height: 506px;
@@ -283,7 +284,7 @@ color: rgba(240, 170, 0, 1);
     
     background: linear-gradient(to top, rgb(248, 221, 168), transparent 90%);
      
-    
+
 
     
 }
@@ -639,6 +640,13 @@ color: rgba(240, 170, 0, 1);
          /* margin: 0 auto; */
        
 
+    }
+
+    main{
+    
+        background-image: url("./assets/bg.png");
+        background-position: bottom;
+        background-size: contain;
     }
 
     .section-1{
